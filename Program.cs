@@ -6,6 +6,7 @@ namespace Calculator
     {
         static void Main(string[] args)
         {
+            // set variables to insert numbers to be calculated
             int num1;
            
             int num2;
@@ -17,7 +18,8 @@ namespace Calculator
             Console.WriteLine("Hello, welcome to the calculator program!");
 
             Console.WriteLine("Please enter your first number!");
-
+            
+            // convert the input from string to int
             num1 = Convert.ToInt32(Console.ReadLine());
             
             Console.WriteLine("Please enter your second number! ");
